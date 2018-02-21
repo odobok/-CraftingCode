@@ -1,0 +1,11 @@
+Basic content of Team website:
+
+Bios with picture ***please add a picture to the repository***
+
+
+page with coding content:
+	-links to current projects
+	-aspirations 
+page with crafting content:
+	-Projects we've done (clutches, makeup bags, clothes, puzzle balls, ect)
+	-interest

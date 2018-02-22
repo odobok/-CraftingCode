@@ -1,0 +1,118 @@
+*{border: 1px solid rgba(0,0,0,0.3)}
+
+html{
+  font-size: 16px;
+}
+p {
+  min-width: 200px;
+  min-height: 200px;
+}
+body {
+  background-color: #471F30;
+}
+
+/* Banner Section */
+
+#banner {
+
+  background-image: url('bridgers.jpeg');
+  background-position: center;
+  height: 46rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  background-size: cover;
+}
+
+#banner h1 {
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 3.75rem;
+}
+#exp-container h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 1.75rem;
+
+}
+/* text content */
+
+#main-text {
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 86%;
+}
+
+#main-text p{
+
+  margin-bottom: 7.5%;
+  margin-top: 12.5%;
+  width: 100%;
+
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8;
+  color: #D4B437;
+}
+
+#lbpic {
+  height:auto;
+  max-width: 48%;
+  float:left;
+  object-fit: contain;
+  margin-left: auto;
+}
+
+.biopic-container {
+  text-align: center;
+  display:inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container2{
+  height:auto;
+  max-width: 48%;
+  float:left;
+  object-fit: contain;
+  margin-left: auto;
+
+}
+.text-container2{
+  height:auto;
+  max-width: 48%;
+  float:right;
+  object-fit: contain;
+  margin-left: auto;
+}
+
+.links-container p {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8;
+  color: #D4B437;
+}
+
+/* Footer */
+
+.footer {
+  padding: 4rem 0;
+  border-top: 1px solid #999999;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  color: #999999;
+  text-align: center;
+}

@@ -1,29 +1,23 @@
 *{border: 1px solid rgba(0,0,0,0.3)}
 
-html{
+* {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-}
-p {
-  min-width: 200px;
-  min-height: 200px;
+  text-align: center;
 }
 
 body {
-  background-color: #471F30;
-  width: 100%;
-  margin: 0 auto;
+    background-color: #471F30;
+    with: 95%;
+    margin: 0 auto;
 }
 
 #content {overflow: auto;}
 
-#nav, #feature, #footer {
-  margin: 1%
-}
 
 /* Banner Section */
 
 #banner {
-
   background-image: url('bridgers.jpeg');
   background-position: center;
   height: 46rem;
@@ -36,48 +30,40 @@ body {
 }
 
 #banner h1 {
-
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: white;
   font-size: 3.75rem;
 }
 
-/* text content */
-
-.column1, .column2 {
-  width: 48%
-  float: center;
+/* page content */
+#feature, #footer {
   margin: 1%
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.column2 {margin-right: 0%}
-
-#feature h2 {
-  height: 10em auto;margin-bottom: 1em;
-  background color: #efefef
+h1 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: white;
     font-size: 1.75rem;
 }
 
-#main-text {
-
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 86%;
+h2 {
+    text-align: center;
+    font-weight: 250;
+    color: white;
+    font-size: 1.5rem;
 }
 
-#main-text p{
-
+h4 {
+    color: white;
+}
+p {
   margin-bottom: 7.5%;
-  margin-top: 12.5%;
+  margin-top: 7.5%;
   width: 100%;
-
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-size: 1rem;
@@ -86,24 +72,41 @@ body {
   color: #D4B437;
 }
 
-h2 {
-  color:white;
+.full-container {
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.links-container p {
+background-color: #D4B437;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8;
+  color: #471F30;
 }
 
 #lbpic {
   height:auto;
-  max-width: 48%;
-  float:left;
+  max-width: 45%;
+  float:center;
   object-fit: contain;
   margin-left: auto;
 }
 
 #kskpic {
   height:auto;
-  max-width: 48%;
-  float:right;
+  max-width: 75%;
+  float:center;
   object-fit: contain;
+  display: block;
+  margin-right: auto;
   margin-left: auto;
+  border-radius: 8px;
 }
 
 .biopic-container {
@@ -119,8 +122,8 @@ h2 {
   float:right;
   object-fit: contain;
   margin-left: auto;
-
 }
+
 .text-container1{
   height:auto;
   max-width: 48%;
@@ -145,23 +148,23 @@ h2 {
   margin-left: auto;
 }
 
-.links-container p {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.8;
-  color: #D4B437;
-}
-
-
 /* Footer */
 
 .footer {
   padding: 4rem 0;
-  border-top: 1px solid #999999;
-  font-family: 'Roboto', sans-serif;
+  border-top: 20px solid #999999;
   font-size: 1.125rem;
-  color: #999999;
-  text-align: center;
+}
+
+/* for secondary pages */
+.column1of2{
+  float: left;
+  width: 48%;
+  margin: 10px;
+  }
+
+.column2of2 {
+  float:right;
+  width: 48%;
+  margin:10px;
 }

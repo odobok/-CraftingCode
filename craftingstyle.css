@@ -60,6 +60,7 @@ h2 {
 h4 {
     color: white;
 }
+
 p {
   margin-bottom: 7.5%;
   margin-top: 7.5%;
@@ -70,6 +71,22 @@ p {
   text-align: center;
   line-height: 1.8;
   color: #D4B437;
+}
+
+ul {
+  color: white;
+  text-align: left;
+  padding-left:0;
+}
+
+a.class1 {
+    color: #471F30;
+    font-family: 'Merriweather', serif;
+}
+
+a.class2 {
+    color: #D4B437;
+    font-family: 'Roboto', sans serif;
 }
 
 .full-container {
@@ -106,6 +123,7 @@ background-color: #D4B437;
   display: block;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 8px;
 }
 
 .biopic-container {
@@ -156,13 +174,13 @@ background-color: #D4B437;
 }
 
 /* for secondary pages */
-.column1of2{
+.KatrinaList {
   float: left;
   width: 48%;
   margin: 10px;
   }
 
-.column2of2 {
+.LaurenList {
   float:right;
   width: 48%;
   margin:10px;

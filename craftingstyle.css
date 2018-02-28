@@ -1,4 +1,4 @@
-*{border: 1px solid rgba(0,0,0,0.3)}
+/**{border: 1px solid rgba(0,0,0,0.3)}*/
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -106,24 +106,28 @@ background-color: #D4B437;
   line-height: 1.8;
   color: #471F30;
 }
+.LaurenBio{
+margin-top: 2rem;
+padding:1rem;
 
+}
 #lbpic {
   height:auto;
-  max-width: 45%;
-  float:center;
+  max-width: 80%;
   object-fit: contain;
-  margin-left: auto;
+  margin: auto;
+  vertical-align: middle;
 }
 
 #kskpic {
   height:auto;
   max-width: 75%;
-  float:center;
   object-fit: contain;
   display: block;
   margin-right: auto;
   margin-left: auto;
   border-radius: 8px;
+  vertical-align: middle;
 }
 
 .biopic-container {
@@ -131,6 +135,7 @@ background-color: #D4B437;
   display:inline-block;
   max-width: 100%;
   height: auto;
+  position:relative;
 }
 
 .image-container1{
@@ -138,7 +143,10 @@ background-color: #D4B437;
   max-width: 48%;
   float:right;
   object-fit: contain;
-  margin-left: auto;
+  margin-right: .5rem;
+
+
+
 }
 
 .text-container1{
@@ -146,15 +154,19 @@ background-color: #D4B437;
   max-width: 48%;
   float:left;
   object-fit: contain;
-  margin-left: auto;
+  margin-left: .5rem;
+  vertical-align: middle;
+  margin-top:
+
 }
 
 .image-container2{
+  text-align: center;
   height:auto;
   max-width: 48%;
   float:left;
   object-fit: contain;
-  margin-left: auto;
+  margin-top: auto;
 
 }
 .text-container2{
@@ -163,7 +175,9 @@ background-color: #D4B437;
   float:right;
   object-fit: contain;
   margin-left: auto;
+
 }
+
 
 /* Footer */
 
@@ -174,14 +188,22 @@ background-color: #D4B437;
 }
 
 /* for secondary pages */
+.code_examples{
+  text-align: center;
+  display:inline-block;
+  max-width: 100%;
+  height:auto;
+}
 .KatrinaList {
   float: left;
-  width: 48%;
+  max-width: 49%;
   margin: 10px;
+  height: auto;
   }
 
 .LaurenList {
   float:right;
-  width: 48%;
+  max-width: 40%;
+  height: auto;
   margin:10px;
 }
